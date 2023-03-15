@@ -1,6 +1,6 @@
 <footer class="footer text-center py-2 theme-bg-dark">
 		   
-            <p class="copyright"><a href="https://nimrod.emerginghost.co.ke" target="_blank">FollowNimrod</a></p>
+            <p class="copyright"><a class="nav-link" href="https://nimrod.emerginghost.co.ke" target="_blank"><?php bloginfo('name'); ?></a></p>
 		   
 	    </footer>
     

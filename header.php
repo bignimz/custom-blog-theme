@@ -17,7 +17,7 @@
 <body>
     
     <header class="header text-center">	    
-	    <a class="site-title pt-lg-4 mb-0" href="index.html">SiteName.dev</a>
+	    <a class="site-title pt-lg-4 my-3 nav-link" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
         
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
            
@@ -33,7 +33,7 @@
 					}
 				
 				?>
-				<img class="mb-3 mx-auto logo" src="<?php echo $logo[0]; ?>" alt="logo" >	
+				<a href="<?php bloginfo('url'); ?>" class="nav-link"><img class="mb-3 mx-auto logo" src="<?php echo $logo[0]; ?>" alt="logo" ></a>	
 				
 				<?php
 
@@ -63,5 +63,4 @@
 	<div class="main-wrapper">
 		<header class="page-title theme-bg-light text-center gradient py-5">
 			<h1 class="heading"><?php the_title(); ?></h1>
-			<?php echo get_template_directory_uri(); ?>
 		</header>
