@@ -262,6 +262,13 @@ h6 {
     color: var(--secondary)
 }
 
+.category {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 
 
 .meta span:last-child:after {
